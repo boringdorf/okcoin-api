@@ -1,5 +1,5 @@
 function OKCoin(domain, channels, apiKey, secretKey) {
-    this.wsUrl = 'wss://real.okcoin.' + domain + ':10440/websocket/okcoinapi'
+    this.wsUrl = 'wss://real.okex.' + domain + ':10440/websocket/okcoinapi'
     this.apiKey = apiKey
     this.secretKey = secretKey
     this.channels = channels
